@@ -1,23 +1,26 @@
 /* Design tokens */
 :root {
-    --clr-primario: #b71c1c;
-    --clr-primario-claro: #7f0000;
-    --clr-primario-oscuro:#f05545;
-    --clr-secundario: #e57373;
-    --clr-secundario-claro: #ffa4a2;
-    --clr-secundario-oscuro:#af4448;
-    --clr-terciario: #ffccbc;
-    --clr-terciario-claro:#ffffee;
-    --clr-terciario-oscuro:#cb9b8c;
-    --ff-titulos: "monospace",
-    --ff-body: "monospace",
-    /* https://type-scale.com */
-    --h1: 49px;
-    --h2: 38px;
-    --h3: 31px;
-    --h4: 27px;
-    --h5: 20px;
-    --h6: 16px;
-  }
-  
-  /* Tokens de diseno */
+  --clr-primario: #b71c1c;
+  --clr-primario-claro: #7f0000;
+  --clr-primario-oscuro:#f05545;
+  --clr-secundario: #e57373;
+  --clr-secundario-claro: #ffa4a2;
+  --clr-secundario-oscuro:#af4448;
+  --clr-terciario: #ffccbc;
+  --clr-terciario-claro:#ffffee;
+  --clr-terciario-oscuro:#cb9b8c;
+  --ff-titulos: "monospace",
+  --ff-body: "monospace",
+  /* https://type-scale.com */
+  --h1: 49px;
+  --h2: 38px;
+  --h3: 31px;
+  --h4: 27px;
+  --h5: 20px;
+  --h6: 16px;
+}
+
+/* Base */
+body {
+  background-color: var(--clr-primario);
+}
