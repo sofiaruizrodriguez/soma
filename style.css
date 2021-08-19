@@ -1,15 +1,15 @@
 /* Design tokens */
 :root {
-    --clr-primario: #e9cfcf;
-    --clr-primario-claro: #bebaba9f;
-    --clr-primario-oscuro:#fcc5c5;
-    --clr-secundario: #FF6F00;
-    --clr-secundario-claro:#FF6F00;
-    --clr-secundario-oscuro:#FF6F00;
-    --clr-terciario:#FF6F00;
-    --clr-terciario-claro:#FF6F00;
-    --clr-terciario-oscuro:#FF6F00;
-    --ff-titulos: "Open Sans",
+    --clr-primario: #b71c1c;
+    --clr-primario-claro: #7f0000;
+    --clr-primario-oscuro:#f05545;
+    --clr-secundario: #e57373;
+    --clr-secundario-claro: #ffa4a2;
+    --clr-secundario-oscuro:#af4448;
+    --clr-terciario: #ffccbc;
+    --clr-terciario-claro:#ffffee;
+    --clr-terciario-oscuro:#cb9b8c;
+    --ff-titulos: "monospace",
     --ff-body: "monospace",
     /* https://type-scale.com */
     --h1: 49px;
