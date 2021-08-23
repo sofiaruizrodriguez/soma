@@ -24,3 +24,27 @@
 body {
   background-color: var(--clr-primario);
 }
+
+/* Logo */
+.logo{}
+/* Objetivo */
+.objetivo{}
+.objetivo__imagen{}
+.objetivo__descripcion{}
+.objetivo__subtitulo{}
+/* Sayhi */
+.sayhi{}
+.sayhi__subtitulo{}
+.sayhi__descripcion{}
+.sayhi__imagen{}
+/* Footer */
+.footer{}
+.footer__cta{}
+.footer__imagen{}
+.footer__subtitulo{}
+.footer__descripcion{}
+.footer__icono{}
+/* Contacto */
+.contacto{}
+.contacto__subtitulo{}
+.contacto__descripcion{}
