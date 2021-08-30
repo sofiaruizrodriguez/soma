@@ -25,7 +25,7 @@
   }
   body {
     color: var(--clr-secundario-oscuro);
-    background-color: var(--clr-primario);
+    background-color: var(--clr-terciario-claro);
     font-family: var(--ff);
     font-weight: 300;
   }
