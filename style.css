@@ -9,8 +9,7 @@
     --clr-terciario: #ffccbc;
     --clr-terciario-claro:#ffffee;
     --clr-terciario-oscuro:#cb9b8c;
-    --ff-titulos: "monospace",
-    --ff-body: "monospace",
+    --ff: 'Inconsolata', monospace;
     /* https://type-scale.com */
     --h1: 49px;
     --h2: 38px;
@@ -22,7 +21,21 @@
   
   /* Base */
   body {
+   
+  }
+  body {
+    color: var(--clr-secundario-oscuro);
     background-color: var(--clr-primario);
+    font-family: var(--ff);
+    font-weight: 300;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+     font-weight: 600;
   }
   
   /* Objetivo */
