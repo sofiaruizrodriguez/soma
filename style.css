@@ -46,3 +46,13 @@
     display: flex;
     margin: auto;
   }
+
+    /* Sayhi */
+    .sayhi{} 
+    .sayhi__subtitulo{}
+    .sayhi__descripcion{
+        font-size: 40px;
+    }
+    .sayhi__imagen{
+    }
+   
