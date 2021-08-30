@@ -60,20 +60,18 @@
     margin: auto;
   }
 
-    /* Sayhi */
-    .sayhi{} 
-    .sayhi__subtitulo{}
-    .sayhi__descripcion{
-        font-size: 40px;
+  /* Sayhi */
+   .sayhi{} 
+   .sayhi__subtitulo{}
+   .sayhi__descripcion{
+    font-size: 40px;
     }
-    .sayhi__imagen{
+  .sayhi__imagen{
     }
     
     /* Footer */
 .footer{}
-.footer__button{
-
-}
+.footer__button{}
 .footer__imagen{
   max-width:100%;
   width: 300px;
