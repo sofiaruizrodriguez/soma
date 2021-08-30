@@ -25,7 +25,7 @@
   }
   body {
     color: var(--clr-secundario-oscuro);
-    background-color: var(--clr-terciario-claro);
+    background-color: var(--clr-primario);
     font-family: var(--ff);
     font-weight: 300;
   }
@@ -68,4 +68,19 @@
     }
     .sayhi__imagen{
     }
-   
+    
+    /* Footer */
+.footer{}
+.footer__button{
+
+}
+.footer__imagen{
+  max-width:100%;
+  width: 300px;
+  margin: auto;
+}
+.footer__descripcion{
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+}
+     /* Contacto */
