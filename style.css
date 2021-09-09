@@ -74,6 +74,14 @@ h6 {
 }
 
 /*** Componentes ***/
+/* Logotipo */
+.logotipo {
+  display: flex
+  max-width: 100%;
+  width: 800px;
+  margin: auto
+}
+
 /* Objetivo */
 .objetivo {
   display: flex
