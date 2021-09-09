@@ -7,7 +7,7 @@
   --clr-secundario-claro: #ffa4a2;
   --clr-secundario-oscuro: #af4448;
   --clr-terciario: #ffccbc;
-  --clr-terciario-claro: #ffffee;
+  --clr-terciario-claro: #fcfcf3;
   --clr-terciario-oscuro: #cb9b8c;
   --ff: 'Inconsolata',monospace;
   --h1: 49px;
@@ -42,7 +42,7 @@ img {
 /*** Base ***/
 body {
   color: var(--clr-primario-oscuro);
-  background-color: var(--clr-terciario);
+  background-color: var(--clr-terciario-claro);
   font-family: var(--ff);
   font-weight: 300;
 }
