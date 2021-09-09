@@ -41,8 +41,8 @@ img {
 }
 /*** Base ***/
 body {
-  color: var(--clr-secundario-oscuro);
-  background-color: var(--clr-primario);
+  color: var(--clr-primario-oscuro);
+  background-color: var(--clr-terciario);
   font-family: var(--ff);
   font-weight: 300;
 }
