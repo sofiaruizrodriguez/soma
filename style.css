@@ -114,10 +114,10 @@ h6 {
 
 
 .sayhi__subtitulo {
-font-size: 40px
+font-size: 30px
 }
 .sayhi__descripcion {
-  font-size: 30px
+  font-size: 20px
 }
 .sayhi__imagenes {
 
@@ -130,8 +130,8 @@ font-size: 40px
 .footer {
 
 }
-.footer__button {
-
+.footer__subtitulo {
+  font-size: 30px
 }
 .footer__imagen {
   max-width: 100%;
@@ -139,12 +139,12 @@ font-size: 40px
   margin: auto
 }
 .footer__descripcion {
-  font-size: 30px
+  font-size: 20px
 }
 /* Contacto */
 .contacto__subtitulo{
-  font-size: 40px
+  font-size: 30px
 }
 .contacto__descripccion{
-  font-size: 30px
+  font-size: 20px
 }
