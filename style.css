@@ -84,11 +84,9 @@ h6 {
   margin: auto
 }
 .objetivo__descripcion {
-  font-family: 'Inconsolata',monospace;
   font-size: 30px
 }
 .objetivo__subtitulo {
-  font-family: 'Inconsolata',monospace;
   font-size: 40px
 }
 .objetivo__block {
@@ -98,7 +96,7 @@ h6 {
 /* Sayhi */
 .sayhi {
   /* Caja */
-
+  display: flex;
 }
 
 .sayhi > div {
@@ -133,15 +131,12 @@ h6 {
   margin: auto
 }
 .footer__descripcion {
-  font-family: 'Inconsolata',monospace;
   font-size: 30px
 }
 /* Contacto */
 .contacto__subtitulo{
-  font-family: 'Inconsolata',monospace;
   font-size: 40px
 }
 .contacto__descripccion{
-  font-family: 'Inconsolata',monospace;
   font-size: 30px
 }
