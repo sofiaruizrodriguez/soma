@@ -125,3 +125,11 @@ h6 {
   font-size: 30px
 }
 /* Contacto */
+.contacto__subtitulo{
+  font-family: 'Inconsolata',monospace;
+  font-size: 40px
+}
+.contacto__descripccion{
+  font-family: 'Inconsolata',monospace;
+  font-size: 30px
+}
