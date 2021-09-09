@@ -86,6 +86,10 @@ h6 {
 .objetivo {
   display: flex
 }
+.objetivo > div {
+  /* Caja */
+  border: 2px solid black; /* quitar despues */
+}
 .objetivo__imagen {
   max-width: 100%;
   width: 800px;
@@ -129,6 +133,10 @@ font-size: 30px
 /* Footer */
 .footer {
 
+}
+.footer > div {
+  /* Caja */
+  border: 2px solid black; /* quitar despues */
 }
 .footer__subtitulo {
   font-size: 30px
