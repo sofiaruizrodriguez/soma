@@ -91,22 +91,34 @@ h6 {
   font-family: 'Inconsolata',monospace;
   font-size: 40px
 }
-.objetivo__block1 {
+.objetivo__block {
   display: flex;
   margin: auto
 }
 /* Sayhi */
 .sayhi {
+  /* Caja */
 
 }
+
+.sayhi > div {
+  /* Caja */
+  border: 2px solid black; /* quitar despues */
+}
+
+
 .sayhi__subtitulo {
 
 }
 .sayhi__descripcion {
   font-size: 40px
 }
-.sayhi__imagen {
+.sayhi__imagenes {
 
+}
+
+.sayhi__imagenes img {
+  border: 2px solid blue; /* quitar despues */
 }
 /* Footer */
 .footer {
