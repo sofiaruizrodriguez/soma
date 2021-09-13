@@ -1,6 +1,5 @@
 Sofia
 -Hacer png el cta
+-Tener el diseño y textos del footer
 Maite
 -Tamaños de las imágenes
-Ambas
--Tener el diseño y textos del footer
