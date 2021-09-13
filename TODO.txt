@@ -3,3 +3,6 @@ Sofia
 
 Maite
 - Imagenes en cloudinary
+-Tamaños de las imágenes
+-Hacer png el cta
+-Tener el diseño y textos del footer
