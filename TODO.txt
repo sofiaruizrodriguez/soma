@@ -1,8 +1,6 @@
 Sofia
-- Imagenes con alt
-
-Maite
-- Imagenes en cloudinary
--Tamaños de las imágenes
 -Hacer png el cta
+Maite
+-Tamaños de las imágenes
+Ambas
 -Tener el diseño y textos del footer
