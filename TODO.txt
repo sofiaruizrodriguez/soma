@@ -1,0 +1,5 @@
+Sofia
+- Imagenes con alt
+
+Maite
+- Imagenes en cloudinary

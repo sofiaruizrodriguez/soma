@@ -88,7 +88,7 @@ h6 {
 }
 .objetivo > div {
   /* Caja */
-  border: 2px solid black; /* quitar despues */
+  outline: 2px solid black; /* quitar despues */
 }
 .objetivo__imagen {
   max-width: 100%;
@@ -113,7 +113,7 @@ h6 {
 
 .sayhi > div {
   /* Caja */
-  border: 2px solid black; /* quitar despues */
+  outline: 2px solid black; /* quitar despues */
 }
 
 
@@ -128,7 +128,7 @@ font-size: 30px
 }
 
 .sayhi__imagenes img {
-  border: 2px solid blue; /* quitar despues */
+  outline: 2px solid blue; /* quitar despues */
 }
 /* Footer */
 .footer {
@@ -136,7 +136,7 @@ font-size: 30px
 }
 .footer > div {
   /* Caja */
-  border: 2px solid black; /* quitar despues */
+  outline: 2px solid black; /* quitar despues */
 }
 .footer__subtitulo {
   font-size: 30px
