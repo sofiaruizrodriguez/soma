@@ -1,0 +1,186 @@
+/*** Design tokens ***/
+:root {
+  --clr-primario: #b71c1c;
+  --clr-primario-claro: #7f0000;
+  --clr-primario-oscuro: #f05545;
+  --clr-secundario: #e57373;
+  --clr-secundario-claro: #ffa4a2;
+  --clr-secundario-oscuro: #af4448;
+  --clr-terciario: #ffccbc;
+  --clr-terciario-claro: #fcfcf3;
+  --clr-terciario-oscuro: #cb9b8c;
+  --ff: 'Inconsolata',monospace;
+  --h1: 49px;
+  --h2: 38px;
+  --h3: 31px;
+  --h4: 27px;
+  --h5: 20px;
+  --h6: 16px;
+}
+/*** Reset ***/
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+li {
+  padding-inline: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+/*** Base ***/
+body {
+  color: var(--clr-primario-oscuro);
+  background-color: var(--clr-terciario-claro);
+  font-family: var(--ff);
+  font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+/* Typescale */
+h1 {
+  font-size: var(--h1);
+}
+h2 {
+  font-size: var(--h2);
+}
+h3 {
+  font-size: var(--h3);
+}
+h4 {
+  font-size: var(--h4);
+}
+h5 {
+  font-size: var(--h5);
+}
+h6 {
+  font-size: var(--h6);
+}
+
+/*** Componentes ***/
+/* Logotipo */
+.logotipo {
+  display: flex;
+  max-width: 100%;
+  width: 200px;
+  margin: auto;
+}
+
+/* Objetivo */
+.objetivo {
+  display: flex;
+}
+
+.objetivo > div {
+  /* Caja */
+  outline: 2px solid black; /* quitar despues */
+}
+
+.objetivo > div:first-of-type {
+  background: var(--clr-terciario-oscuro);
+  display: flex;
+  flex-direction: column;
+}
+
+.objetivo > div:last-of-type {
+    background: var(--clr-terciario);
+     display: flex;
+       flex-direction: column;
+}
+.grid01{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6%;
+}
+  
+  .objetivo__imagen01 {
+  max-width: 100%;
+  width: 800px;
+  margin: auto;
+  grid-column-start: 1;
+}
+.objetivo__imagen02 {
+  max-width: 100%;
+  width: 800px;
+  margin: auto;
+  grid-column-start: 1;
+  grid-row-start:2;
+}
+.objetivo__descripcion {
+  font-size: 30px;
+}
+.objetivo__subtitulo {
+  font-size: 40px;
+}
+.objetivo__block {
+  display: flex;
+  margin: auto;
+}
+/* Sayhi */
+.sayhi {
+  /* Caja */
+  display: flex;
+}
+
+.sayhi > div {
+  /* Caja */
+  outline: 2px solid black; /* quitar despues */
+}
+
+
+.sayhi__subtitulo {
+font-size: 30px;
+}
+.sayhi__descripcion {
+  font-size: 20px;
+}
+.sayhi__imagenes {
+
+}
+
+.sayhi__imagenes img {
+  outline: 2px solid blue; /* quitar despues */
+}
+/* Footer */
+.footer {
+
+}
+.footer > div {
+  /* Caja */
+  outline: 2px solid black; /* quitar despues */
+}
+.footer__subtitulo {
+  font-size: 30px;
+}
+.footer__descripcion {
+  font-size: 20px;
+}
+.footer__cta{
+  max-width: 100%;
+  width: 800px;
+  margin: auto;
+}
+
+/* Contacto */
+.contacto__subtitulo{
+  font-size: 30px;
+}
+.contacto__descripcion{
+  font-size: 20px;
+}

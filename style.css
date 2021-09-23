@@ -82,90 +82,46 @@ h6 {
   margin: auto;
 }
 
-/* Objetivo */
-.objetivo {
-  display: flex;
-}
-.objetivo > div {
-  /* Caja */
-  outline: 2px solid black; /* quitar despues */
-}
-
-.objetivo > div:first-of-type {
-  background: var(--clr-terciario-oscuro);
-  display: flex;
-  flex-direction: column;
-}
-
-.objetivo > div:last-of-type {
-    background: var(--clr-terciario);
-     display: flex;
-       flex-direction: column;
-}
-.objetivo__imagen {
-  max-width: 100%;
-  width: 800px;
-  margin: auto;
-}
-.objetivo__descripcion {
-  font-size: 30px;
-}
-.objetivo__subtitulo {
-  font-size: 40px;
-}
-.objetivo__block {
-  display: flex;
-  margin: auto;
-}
-/* Sayhi */
-.sayhi {
-  /* Caja */
-  display: flex;
+/* Layout */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+  "logo info"
+  "imagen-1 descripcion-1"
+  "imagen-1 titulo-branding"
+  "sayhi imagenes-2"
+  "sayhi imagenes-2"
+  "cta imagenes-2"
+  ". testimonios"
+  "redes ."
+  "footer .";
 }
 
-.sayhi > div {
-  /* Caja */
-  outline: 2px solid black; /* quitar despues */
-}
+/* Logo */
+.logo { grid-area: logo; }
 
+/* Info */
+.info { grid-area: info; }
 
-.sayhi__subtitulo {
-font-size: 30px;
-}
-.sayhi__descripcion {
-  font-size: 20px;
-}
-.sayhi__imagenes {
+/* Imagen 1 */
+.imagen-1 { grid-area: imagen-1; }
 
-}
+.descripcion-1 { grid-area: descripcion-1; }
 
-.sayhi__imagenes img {
-  outline: 2px solid blue; /* quitar despues */
-}
-/* Footer */
-.footer {
+.titulo-branding { grid-area: titulo-branding; }
 
-}
-.footer > div {
-  /* Caja */
-  outline: 2px solid black; /* quitar despues */
-}
-.footer__subtitulo {
-  font-size: 30px;
-}
-.footer__descripcion {
-  font-size: 20px;
-}
-.footer__cta{
-  max-width: 100%;
-  width: 800px;
-  margin: auto;
-}
+.sayhi { grid-area: sayhi; }
 
-/* Contacto */
-.contacto__subtitulo{
-  font-size: 30px;
-}
-.contacto__descripcion{
-  font-size: 20px;
-}
+.imagenes-2 { grid-area: imagenes-2; }
+
+.cta { grid-area: cta; }
+
+.testimonios { grid-area: testimonios; }
+
+.redes { grid-area: redes; }
+
+.footer { grid-area: footer; }
