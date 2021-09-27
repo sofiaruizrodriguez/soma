@@ -81,7 +81,7 @@ h6 {
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "Logo \"EstudioCreativo\""
+    "Logo \"Estudio-creativo\""
     "img-1 Objetivo-Intro"
     "img-2 \"BrandingEditorial\""
     ". Objetivo-texto-2"
