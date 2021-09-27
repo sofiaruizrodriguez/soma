@@ -142,7 +142,7 @@ h6 {
 .Logos { grid-area: Logos; }
 
 .Contacto { grid-area: Contacto; }
-
+/* 
 .Aviso-de-privacidad {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -155,4 +155,4 @@ h6 {
     ". . .";
   grid-area: Aviso-de-privacidad;
 }
-
+ */
