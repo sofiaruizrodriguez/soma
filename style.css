@@ -74,54 +74,85 @@ h6 {
 }
 
 /*** Componentes ***/
-/* Logotipo */
-.logotipo {
-  display: flex;
-  max-width: 100%;
-  width: 200px;
-  margin: auto;
-}
-
-/* Layout */
-.layout {
+.container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 1fr 2fr 2fr 1.5fr 1fr 2.5fr 2fr 2fr 2fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-  "logo info"
-  "imagen-1 descripcion-1"
-  "imagen-1 titulo-branding"
-  "sayhi imagenes-2"
-  "sayhi imagenes-2"
-  "cta imagenes-2"
-  ". testimonios"
-  "redes ."
-  "footer .";
+    "Logo \"EstudioCreativo\""
+    "img-1 Objetivo-Intro"
+    "img-2 \"BrandingEditorial\""
+    ". Objetivo-texto-2"
+    "Say-hi-mail"
+    "Say-hi-texto img-03-arco"
+    "Say-hi-equipo img-03-arco"
+    ". img-04"
+    "cta Testimonios"
+    ". Testimonios"
+    "Logos ."
+    "Contacto ."
+    "Aviso-de-privacidad";
 }
 
-/* Logo */
-.logo { grid-area: logo; }
+.Logo { grid-area: Logo; }
 
-/* Info */
-.info { grid-area: info; }
+.\"Estudio-creativo\" { grid-area: \"Estudio-creativo\"; }
 
-/* Imagen 1 */
-.imagen-1 { grid-area: imagen-1; }
+.img-1 { grid-area: img-1; }
 
-.descripcion-1 { grid-area: descripcion-1; }
+.img-2 { grid-area: img-2; }
 
-.titulo-branding { grid-area: titulo-branding; }
+.\"Branding\,-editorial\" {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". Branding ."
+    ". Editorial .";
+  grid-area: \"Branding\,-editorial\";
+}
 
-.sayhi { grid-area: sayhi; }
+.Branding { grid-area: Branding; }
 
-.imagenes-2 { grid-area: imagenes-2; }
+.Editorial { grid-area: Editorial; }
+
+.Objetivo-texto-2 { grid-area: Objetivo-texto-2; }
+
+.Objetivo-Intro { grid-area: Objetivo-Intro; }
+
+.Say-hi\:-hello\@SoMa\.com { grid-area: Say-hi\:-hello\@SoMa\.com; }
+
+.Say-hi-texto { grid-area: Say-hi-texto; }
+
+.Say-hi-equipo { grid-area: Say-hi-equipo; }
+
+.img-03-arco { grid-area: img-03-arco; }
+
+.img-04 { grid-area: img-04; }
 
 .cta { grid-area: cta; }
 
-.testimonios { grid-area: testimonios; }
+.Testimonios { grid-area: Testimonios; }
 
-.redes { grid-area: redes; }
+.Logos { grid-area: Logos; }
 
-.footer { grid-area: footer; }
+.Contacto { grid-area: Contacto; }
+
+.Aviso-de-privacidad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  grid-area: Aviso-de-privacidad;
+}
+
