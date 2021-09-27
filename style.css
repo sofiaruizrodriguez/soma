@@ -74,85 +74,111 @@ h6 {
 }
 
 /*** Componentes ***/
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  grid-template-rows: 1fr 2fr 2fr 1.5fr 1fr 2.5fr 2fr 2fr 2fr 1fr 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "Logo \"Estudio-creativo\""
-    "img-1 Objetivo-Intro"
-    "img-2 \"BrandingEditorial\""
-    ". Objetivo-texto-2"
-    "Say-hi-mail"
-    "Say-hi-texto img-03-arco"
-    "Say-hi-equipo img-03-arco"
-    ". img-04"
-    "cta Testimonios"
-    ". Testimonios"
-    "Logos ."
-    "Contacto ."
-    "Aviso-de-privacidad";
+/* Logotipo */
+.logotipo {
+  display: flex;
+  max-width: 100%;
+  width: 200px;
+  margin: auto;
 }
 
-.Logo { grid-area: Logo; }
-
-.\"Estudio-creativo\" { grid-area: \"Estudio-creativo\"; }
-
-.img-1 { grid-area: img-1; }
-
-.img-2 { grid-area: img-2; }
-
-.\"Branding\,-editorial\" {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". Branding ."
-    ". Editorial .";
-  grid-area: \"Branding\,-editorial\";
+/* Objetivo */
+.objetivo {
+  display: flex;
+}
+.objetivo > div {
+  /* Caja */
+  outline: 2px solid black; /* quitar despues */
 }
 
-.Branding { grid-area: Branding; }
-
-.Editorial { grid-area: Editorial; }
-
-.Objetivo-texto-2 { grid-area: Objetivo-texto-2; }
-
-.Objetivo-Intro { grid-area: Objetivo-Intro; }
-
-.Say-hi\:-hello\@SoMa\.com { grid-area: Say-hi\:-hello\@SoMa\.com; }
-
-.Say-hi-texto { grid-area: Say-hi-texto; }
-
-.Say-hi-equipo { grid-area: Say-hi-equipo; }
-
-.img-03-arco { grid-area: img-03-arco; }
-
-.img-04 { grid-area: img-04; }
-
-.cta { grid-area: cta; }
-
-.Testimonios { grid-area: Testimonios; }
-
-.Logos { grid-area: Logos; }
-
-.Contacto { grid-area: Contacto; }
-
-.Aviso-de-privacidad {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-  grid-area: Aviso-de-privacidad;
+.objetivo > div:first-of-type {
+  background: var(--clr-terciario-oscuro);
+  display: flex;
+  flex-direction: column;
 }
 
+.objetivo > div:last-of-type {
+    background: var(--clr-terciario);
+     display: flex;
+       flex-direction: column;
+}
+.objetivo__imagen {
+  max-width: 100%;
+  width: 800px;
+  margin: auto;
+}
+.objetivo__descripcion {
+  font-size: 30px;
+}
+.objetivo__subtitulo {
+  font-size: 40px;
+}
+.objetivo__block {
+  display: flex;
+  margin: auto;
+}
+
+column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Sayhi */
+.sayhi {
+  /* Caja */
+  display: flex;
+}
+
+.sayhi > div {
+  /* Caja */
+  outline: 2px solid black; /* quitar despues */
+}
+
+
+.sayhi__subtitulo {
+font-size: 30px;
+}
+.sayhi__descripcion {
+  font-size: 20px;
+}
+.sayhi__imagenes {
+
+}
+
+.sayhi__imagenes img {
+  outline: 2px solid blue; /* quitar despues */
+}
+/* Footer */
+.footer {
+
+}
+.footer > div {
+  /* Caja */
+  outline: 2px solid black; /* quitar despues */
+}
+.footer__subtitulo {
+  font-size: 30px;
+}
+.footer__descripcion {
+  font-size: 20px;
+}
+.footer__cta{
+  max-width: 100%;
+  width: 800px;
+  margin: auto;
+}
+
+/* Contacto */
+.contacto__subtitulo{
+  font-size: 30px;
+}
+.contacto__descripcion{
+  font-size: 20px;
+}
