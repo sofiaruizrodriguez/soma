@@ -1,148 +1,163 @@
 /*** Design tokens ***/
 :root {
-  --clr-primario: #b71c1c;
-  --clr-primario-claro: #7f0000;
-  --clr-primario-oscuro: #f05545;
-  --clr-secundario: #e57373;
-  --clr-secundario-claro: #ffa4a2;
-  --clr-secundario-oscuro: #af4448;
-  --clr-terciario: #ffccbc;
-  --clr-terciario-claro: #fcfcf3;
-  --clr-terciario-oscuro: #cb9b8c;
-  --ff: 'Inconsolata',monospace;
-  --h1: 49px;
-  --h2: 38px;
-  --h3: 31px;
-  --h4: 27px;
-  --h5: 20px;
-  --h6: 16px;
-}
-/*** Reset ***/
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-ul,
-ol {
-  list-style: none;
-}
-li {
-  padding-inline: 0;
-}
-img {
-  max-width: 100%;
-  display: block;
-}
-/*** Base ***/
-body {
-  color: var(--clr-primario-oscuro);
-  background-color: var(--clr-terciario-claro);
-  font-family: var(--ff);
-  font-weight: 300;
-}
-h1,
-h2,
-h3,
-
-  font-weight: 600;
-}
-/* Typescale */
-h1 {
-  font-size: var(--h1);
-}
-h2 {
-  font-size: var(--h2);
-}
-h3 {
-  font-size: var(--h3);
-}
-
-
-/*** Componentes ***/
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  grid-template-rows: 1fr 2fr 2fr 1.5fr 1fr 2.5fr 2fr 2fr 2fr 1fr 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "Logo" "Estudio-creativo"
-    "img-1" "Objetivo-Intro"
-    "img-2" "BrandingEditorial"
-    ".Objetivo-texto-2"
-    "Say-hi-mail"
-    "Say-hi-texto" "img-03-arco"
-    "Say-hi-equipo" "img-03-arco"
-    ".img-04"
-    "cta" "Testimonios"
-    ".Testimonios"
-    "Logos ."
-    "Contacto ."
-    "Aviso-de-privacidad";
-}
-
-.Logo { grid-area: Logo; }
-
-.Estudio-creativo { grid-area: \"Estudio-creativo\"; }
-
-.img-1 { grid-area: img-1; }
-
-.img-2 { grid-area: img-2; }
-
-.Branding-editorial {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". Branding ."
-    ". Editorial .";
-  grid-area:Branding-editorial;
-}
-
-.Branding { grid-area: Branding; }
-
-.Editorial { grid-area: Editorial; }
-
-.Objetivo-texto-2 { grid-area: Objetivo-texto-2; }
-
-.Objetivo-Intro { grid-area: Objetivo-Intro; }
-
-.Say-hi-mail { grid-area: Say-hi-mail; }
-
-.Say-hi-texto { grid-area: Say-hi-texto; }
-
-.Say-hi-equipo { grid-area: Say-hi-equipo; }
-
-.img-03-arco { grid-area: img-03-arco; }
-
-.img-04 { grid-area: img-04; }
-
-.cta { grid-area: cta; }
-
-.Testimonios { grid-area: Testimonios; }
-
-.Logos { grid-area: Logos; }
-
-.Contacto { grid-area: Contacto; }
-
-.Aviso-de-privacidad {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-  grid-area: Aviso-de-privacidad;
-}
+    --clr-primario: #b71c1c;
+    --clr-primario-claro: #7f0000;
+    --clr-primario-oscuro: #f05545;
+    --clr-terciario-claro: #fcfcf3;
+    --ff: "Inconsolata", monospace;
+    --h1: 49px;
+    --h2: 38px;
+    --h3: 31px;
+    --h4: 27px;
+    --h5: 20px;
+    --h6: 16px;
+  }
+  /*** Reset ***/
+  html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  ul,
+  ol {
+    list-style: none;
+  }
+  li {
+    padding-inline: 0;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  /*** Base ***/
+  body {
+    color: var(--clr-primario-oscuro);
+    background-color: var(--clr-terciario-claro);
+    font-family: var(--ff);
+    font-weight: 300;
+  }
+  h1,
+  h2,
+  h3 {
+    font-weight: 600;
+  }
+  /* Typescale */
+  h1 {
+    font-size: var(--h1);
+  }
+  h2 {
+    font-size: var(--h2);
+  }
+  h3 {
+    font-size: var(--h3);
+  }
+  
+  /*** Componentes ***/
+  .header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .header img {
+  }
+  .header h1 {
+    justify-self: center;
+    align-self: start;
+    font-size: 22px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding-right: 70px;
+  }
+  
+  /*** Nosotros ***/
+  .nosotros {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .nosotros img {
+    margin-bottom: 20px;
+  }
+  .nosotros {
+  }
+  
+  /*** Branding ***/
+  .branding {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 20px;
+  }
+  .branding img {
+  }
+  .branding > div {
+  }
+  .branding > div h2 {
+  }
+  .branding > div p {
+  }
+  
+  /*** Sayhi ***/
+  .sayhi {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .equipo {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .equipo p {
+  }
+  .equipo img:first-of-type {
+    border: 2px solid hotpink;
+  }
+  .equipo img:last-of-type {
+    border: 2px solid blue;
+  }
+  
+  /*** Testimonios ***/
+  .testimonios {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .testimonios .cta {
+  }
+  .testimonios div {
+  }
+  .testimonios h2 {
+  }
+  .testimonios blockquote {
+  }
+  .testimonios cite {
+  }
+  
+  /*** Social ***/
+  .social {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .social a {
+  }
+  .social a img {
+  }
+  
+  /*** Footer ***/
+  .footer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1.5fr;
+  }
+  .footer .contacto {
+  }
+  .footer .contacto span {
+  }
+  .footer .contacto p {
+  }
