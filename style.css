@@ -49,8 +49,7 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5 {
+
   font-weight: 600;
 }
 /* Typescale */
@@ -63,15 +62,7 @@ h2 {
 h3 {
   font-size: var(--h3);
 }
-h4 {
-  font-size: var(--h4);
-}
-h5 {
-  font-size: var(--h5);
-}
-h6 {
-  font-size: var(--h6);
-}
+
 
 /*** Componentes ***/
 .container {
