@@ -161,3 +161,25 @@
   }
   .footer .contacto p {
   }
+
+    /*** Movil ***/
+    @media screen and (max-width: 600px) {
+      .nosotros,
+      .branding,
+      .equipo,
+      .testimonios{
+        background-color: #e1d5db;
+        grid-auto-flow: unset;
+        grid-template-columns: unset;
+        gap:40px;
+      }
+      .nosotros img{ 
+      grid-row: 2;
+      }
+      .branding img{ 
+      grid-row: 2; 
+      }
+    .footer {
+      padding:40px;
+      }
+      }
