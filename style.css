@@ -118,7 +118,7 @@
   }
   .equipo img:first-of-type {
     border: 2px solid hotpink;
-    width: 60px;
+    width: 100px;
   }
   .equipo img:last-of-type {
     border: 2px solid blue;
