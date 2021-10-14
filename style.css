@@ -117,13 +117,9 @@
   .equipo p {
   }
   .equipo img:first-of-type {
-    border: 2px solid hotpink;
-  
-  }
+    border: 2px solid hotpink;}
   .equipo img:last-of-type {
-    border: 2px solid blue;
-    width: 100%;
-  }
+    border: 2px solid blue;  }
   
   /*** Testimonios ***/
   .testimonios {
