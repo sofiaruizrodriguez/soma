@@ -11,175 +11,201 @@
     --h4: 27px;
     --h5: 20px;
     --h6: 16px;
-  }
-  /*** Reset ***/
-  html {
+}
+
+/*** Reset ***/
+html {
     box-sizing: border-box;
-  }
-  *,
-  *::before,
-  *::after {
+}
+
+*, *::before, *::after {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
-  }
-  ul,
-  ol {
+}
+
+ul, ol {
     list-style: none;
-  }
-  li {
-    padding-inline: 0;
-  }
-  img {
+}
+
+li {
+    padding-inline: 0; }
+
+img {
     max-width: 100%;
     display: block;
-  }
-  /*** Base ***/
-  body {
+}
+
+/*** Base ***/
+body {
     color: var(--clr-primario-oscuro);
     background-color: var(--clr-terciario-claro);
     font-family: var(--ff);
     font-weight: 300;
-  }
-  h1,
-  h2,
-  h3 {
+}
+
+h1, h2, h3 {
     font-weight: 600;
-  }
-  /* Typescale */
-  h1 {
+}
+
+/* Typescale */
+h1 {
     font-size: var(--h1);
-  }
-  h2 {
+}
+
+h2 {
     font-size: var(--h2);
-  }
-  h3 {
+}
+
+h3 {
     font-size: var(--h3);
-  }
-  
-  /*** Componentes ***/
-  .header {
+}
+
+/*** Componentes ***/
+.header {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1.5fr;
-  }
-  .header img {
-  }
-  .header h1 {
+}
+
+.header img {
+}
+
+.header h1 {
     justify-self: center;
     align-self: start;
     font-size: 22px;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     padding-right: 70px;
-  }
-  
-  /*** Nosotros ***/
-  .nosotros {
+}
+
+/*** Nosotros ***/
+.nosotros {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1.5fr;
-  }
-  .nosotros img {
+}
+
+.nosotros img {
     width: 90%;
     margin-bottom: 20px;
-  }
-  .nosotros {
-  }
-  
-  /*** Branding ***/
-  .branding {
+}
+
+.nosotros {
+}
+
+/*** Branding ***/
+.branding {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1.5fr;
     gap: 20px;
-  }
-  .branding img {
-    width: 94%;
-  }
-  .branding > div {
-  }
-  .branding > div h2 {
-  }
-  .branding > div p {
-  }
-  
-  /*** Sayhi ***/
-  .sayhi {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-  }
-  .equipo {
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: 1fr 1.5fr;
-  }
-  .equipo p {
-  }
-  .equipo img:first-of-type {
-   }
-  .equipo img:last-of-type {
-    }
-  
-  /*** Testimonios ***/
-  .testimonios {
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: 1fr 1.5fr;
-  }
-  .testimonios .cta {
-  }
-  .testimonios div {
-  }
-  .testimonios h2 {
-  }
-  .testimonios blockquote {
-  }
-  .testimonios cite {
-  }
-  
-  /*** Social ***/
-  .social {
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: 1fr 1.5fr;
-  }
-  .social a {
-  }
-  .social a img {
-  }
-  
-  /*** Footer ***/
-  .footer {
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: 1fr 1.5fr;
-  }
-  .footer .contacto {
-  }
-  .footer .contacto span {
-  }
-  .footer .contacto p {
-  }
+}
 
-    /*** Movil ***/
-    @media screen and (max-width: 600px) {
-      .nosotros,
-      .branding,
-      .equipo,
-      .testimonios{
-        background-color: #e1d5db;
-        grid-auto-flow: unset;
+.branding img {
+    width: 94%;
+}
+
+.branding > div {
+}
+
+.branding > div h2 {
+}
+
+.branding > div p {
+}
+
+/*** Sayhi ***/
+.sayhi {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.equipo {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.equipo p {
+}
+
+.equipo img:first-of-type {
+}
+
+.equipo img:last-of-type {
+}
+
+/*** Testimonios ***/
+.testimonios {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.testimonios .cta {
+    margin: auto;
+}
+
+.testimonios div {
+}
+
+.testimonios h2 {
+}
+
+.testimonios blockquote {
+}
+
+.testimonios cite {
+}
+
+/*** Social ***/
+.social {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.social a {
+}
+
+.social a img {
+}
+
+/*** Footer ***/
+.footer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.footer .contacto {
+}
+
+.footer .contacto span {
+}
+
+.footer .contacto p {
+}
+
+/*** Movil ***/
+@media screen and (max-width: 600px) {
+    .nosotros, .branding, .equipo, .testimonios {
+        /* background-color: #e1d5db; */ grid-auto-flow: unset;
         grid-template-columns: unset;
-        gap:40px;
-      }
-      .nosotros img{ 
-      grid-row: 2;
-      }
-      .branding img{ 
-      grid-row: 2; 
-      }
+        gap: 40px;
+    }
+
+    .nosotros img {
+        grid-row: 2;
+    }
+
+    .branding img {
+        grid-row: 2;
+    }
+
     .footer {
-      padding:40px;
-      }
-      }
+        padding: 40px;
+    }
+}
