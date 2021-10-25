@@ -144,6 +144,7 @@ h3 {
 .equipo img:last-of-type {
     width: 70%; 
     padding-left: 30px;
+    margin-right: 10px;
 }
 
 /*** Testimonios ***/
