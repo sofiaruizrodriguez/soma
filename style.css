@@ -36,11 +36,12 @@ img {
     display: block;
 }
 
-/*** Base ***/
+/* Base */
 body {
     color: var(--clr-primario-oscuro);
     background-color: var(--clr-terciario-claro);
     font-family: var(--ff);
+    font-size: var(--p);
     font-weight: 300;
 }
 
