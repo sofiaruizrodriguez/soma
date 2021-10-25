@@ -145,15 +145,18 @@ h3 {
     padding-bottom: 20px;
 }
 
-.equipo img:first-of-type {
-    width: 100%;
-    padding-left: 30px;
+.equipo-imagenes  {
+   display: flex;
+   flex-direction:column; 
+   gap:30px;
+   margin:auto;
+   padding-bottom: 40px;
 }
 
-.equipo img:last-of-type {
-    width: 70%; 
-    padding-left: 30px;
-    margin-right: 10px;
+
+.equipo img {
+    width: 100%;
+    max-width: 300px;
 }
 
 /*** Testimonios ***/
