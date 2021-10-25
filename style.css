@@ -125,6 +125,7 @@ h3 {
 .sayhi {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
+    padding-top: 30px;
 }
 
 .equipo {
