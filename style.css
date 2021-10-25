@@ -125,7 +125,8 @@ h3 {
 .sayhi {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    padding-top: 30px;
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 .equipo {
@@ -135,6 +136,8 @@ h3 {
 }
 
 .equipo p {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .equipo img:first-of-type {
@@ -163,9 +166,13 @@ h3 {
 }
 
 .testimonios h2 {
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
 
 .testimonios blockquote {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .testimonios cite {
@@ -192,6 +199,7 @@ h3 {
 }
 
 .footer .contacto {
+    padding-top: 70px;
 }
 
 .footer .contacto span {
