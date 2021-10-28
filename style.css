@@ -132,7 +132,6 @@ h3 {
 /*** Sayhi ***/
 .sayhi {
         display: grid;
-        grid-template-columns: 1fr 1.5fr;
         grid-auto-flow: column;
         /* grid-template-columns: 1fr 1.5fr; */
         padding-top: 70px;
