@@ -11,6 +11,7 @@
     --h4: 27px;
     --h5: 20px;
     --h6: 16px;
+    --h7: 80px;
     --p: 30px;
 }
 
@@ -88,6 +89,7 @@ h3 {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1.5fr;
+    --h7: 16px;
 }
 
 .nosotros img {
