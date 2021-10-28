@@ -131,12 +131,18 @@ h3 {
 
 /*** Sayhi ***/
 .sayhi {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    padding-top: 70px;
-    padding-bottom: 50px;
-    margin-left: 20px;
-    font-size: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        grid-auto-flow: column;
+        /* grid-template-columns: 1fr 1.5fr; */
+        padding-top: 70px;
+        padding-bottom: 50px;
+        margin-left: 20px;
+        margin-left: 40px;
+        font-size: 40px;
+        place-content: start;
+        gap:1ch;
+    
 }
 
 .sayhi span {
