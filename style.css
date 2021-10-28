@@ -4,6 +4,7 @@
     --clr-primario-claro: #7f0000;
     --clr-primario-oscuro: #f05545;
     --clr-terciario-claro: #fcfcf3;
+    --clr-morado: #864ff9;
     --ff: "Inconsolata", monospace;
     --h1: 50px;
     --h2: 50px;
@@ -136,6 +137,10 @@ h3 {
     padding-bottom: 50px;
     margin-left: 20px;
     font-size: 40px;
+}
+
+.sayhi > div span {
+    --clr-morado: #864ff9;
 }
 
 .equipo {
