@@ -112,8 +112,9 @@ place-self: center;
 }
 
 .branding img {
-    width: 92%;
-    padding-left: 30px;
+    width: 100%;
+    padding-left: 25px;
+    place-self: center;
 }
 
 .branding > div {
