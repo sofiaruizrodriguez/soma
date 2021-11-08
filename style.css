@@ -297,7 +297,8 @@ h3 {
   
   #uno:checked ~ .uno,
   #dos:checked ~ .dos,
-  #tres:checked ~ .tres {
+  #tres:checked ~ .tres,
+  #tres:checked ~ .cuatro{
     display: block;
   }
   
@@ -332,7 +333,8 @@ h3 {
   
   #uno:checked ~ .uno ~ .carrusel-dots li:nth-child(1) .dot,
   #dos:checked ~ .dos ~ .carrusel-dots li:nth-child(2) .dot,
-  #tres:checked ~ .tres ~ .carrusel-dots li:nth-child(3) .dot {
+  #tres:checked ~ .tres ~ .carrusel-dots li:nth-child(3) .dot,
+  #cuatro:checked ~ .cuatro ~ .carrusel-dots li:nth-child(4) .dot {
     color: #428bca;
   }
 
