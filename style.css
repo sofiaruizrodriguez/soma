@@ -337,29 +337,9 @@ h3 {
   #cuatro:checked ~ .cuatro ~ .carrusel-dots li:nth-child(4) .dot {
     color: #428bca;
   }
-
-  .slider {
-display: none;
-  }
-
-  @media screen and(min-width: 600px) {
-    .slider {
-       display: block;
-      }
-  }
-
-  .bloque-img-sm {
-display: block;
-  }
-
-  @media screen and(min-width: 599px) {
-    .bloque-img-sm {
-       display: none;
-      }
-  }
-
-  
-  
+@media screen and (min-width: 600px){
+  .bloque-img-sm{display:none}
+}
 
 /*** Movil ***/
 @media screen and (max-width: 600px) {
@@ -386,6 +366,12 @@ display: block;
         grid-row: 2;
         padding-left: 0;
     }
+
+      .slider {
+display: none;
+  }
+
+  
 
     .testimonios {
         padding: 30px 0 30px 30px;
