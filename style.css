@@ -238,7 +238,6 @@ h3 {
 
 /* Slider */
 .carrusel {
-    display: none;
     position: relative;
     overflow: hidden;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
@@ -247,13 +246,7 @@ h3 {
     margin: 100px auto;
   }
 
-  @media screen and(min-width: 600px) {
-    .carrusel {
-       display: block;
-      }
-    
-  }
-  
+
   .carrusel .open:checked + figure {
     position: static;
     opacity: 100;
@@ -344,6 +337,29 @@ h3 {
   #cuatro:checked ~ .cuatro ~ .carrusel-dots li:nth-child(4) .dot {
     color: #428bca;
   }
+
+  .slider {
+display: none;
+  }
+
+  @media screen and(min-width: 600px) {
+    .slider {
+       display: block;
+      }
+  }
+
+  .bloque-img-sm {
+display: block;
+  }
+
+  @media screen and(min-width: 599px) {
+    .bloque-img-sm {
+       display: none;
+      }
+  }
+
+  
+  
 
 /*** Movil ***/
 @media screen and (max-width: 600px) {
