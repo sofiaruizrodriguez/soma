@@ -32,7 +32,8 @@ ul, ol {
 }
 
 li {
-    padding-inline: 0; }
+    padding-inline: 0;
+}
 
 img {
     max-width: 100%;
@@ -121,12 +122,12 @@ h3 {
     place-self: center;
 }
 
-.branding > div h2 {
+.branding>div h2 {
     position: relative;
     padding-bottom: 60px;
 }
 
-.branding > div h2::after {
+.branding>div h2::after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -134,7 +135,7 @@ h3 {
     content: "Editorial"
 }
 
-.branding > div p {
+.branding>div p {
     padding-top: 20px;
 }
 
@@ -168,14 +169,13 @@ h3 {
     padding-bottom: 20px;
 }
 
-.equipo-imagenes{
+.equipo-imagenes {
     place-self: end;
 }
 
-
-.equipo-imagenes img{
-   width: 90%;
-  object-fit: contain;
+.equipo-imagenes img {
+    width: 90%;
+    object-fit: contain;
 }
 
 /*** Testimonios ***/
@@ -183,6 +183,7 @@ h3 {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1.5fr;
+    margin-inline: 40px 10px;
 }
 
 .testimonios .cta {
@@ -203,8 +204,7 @@ h3 {
     padding-bottom: 20px;
 }
 
-.testimonios cite {
-}
+.testimonios cite {}
 
 /*** Social ***/
 .social {
@@ -213,28 +213,26 @@ h3 {
     grid-template-columns: 1fr 1.5fr;
 }
 
-.social a {
-}
+.social a {}
 
-.social a img {
-}
+.social a img {}
 
 /*** Footer ***/
 .footer {
     display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: 1fr 1.5fr;
-    margin-left: 20px;
-}
-
-.footer .contacto {
-    padding-top: 70px;
+    max-width: 90vw;
+    margin: auto;
+    padding-block: 70px;
+    gap: 20px;
 }
 
 .footer .contacto span {
+    padding-inline-end: 1rem;
+    ;
 }
 
 .footer .contacto p {
+    line-height: 1.2;
 }
 
 /* Slider */
@@ -245,27 +243,26 @@ h3 {
     width: 100%;
     width: 90vw;
     margin: 100px auto;
-  }
+}
 
-
-  .carrusel .open:checked + figure {
+.carrusel .open:checked+figure {
     position: static;
     opacity: 100;
-  }
-  
-  .carrusel figure {
+}
+
+.carrusel figure {
     position: absolute;
     opacity: 0;
     transition: opacity 0.4s ease-out;
-  }
-  
-  .carrusel figure img {
+}
+
+.carrusel figure img {
     display: block;
     height: auto;
     max-width: 100%;
-  }
-  
-  .carrusel-nav {
+}
+
+.carrusel-nav {
     background: rgba(0, 0, 0, 0.3);
     border-radius: 50%;
     color: #fff;
@@ -282,28 +279,25 @@ h3 {
     text-align: center;
     width: 40px;
     z-index: 10;
-  }
-  
-  .carrusel-nav.anterior {
+}
+
+.carrusel-nav.anterior {
     left: 0.5ch;
-  }
-  
-  .carrusel-nav.siguiente {
+}
+
+.carrusel-nav.siguiente {
     right: 0.5ch;
-  }
-  
-  .carrusel-nav:hover {
+}
+
+.carrusel-nav:hover {
     opacity: 0.8;
-  }
-  
-  #uno:checked ~ .uno,
-  #dos:checked ~ .dos,
-  #tres:checked ~ .tres,
-  #tres:checked ~ .cuatro{
+}
+
+#uno:checked~.uno, #dos:checked~.dos, #tres:checked~.tres, #tres:checked~.cuatro {
     display: block;
-  }
-  
-  .carrusel-dots {
+}
+
+.carrusel-dots {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -313,39 +307,40 @@ h3 {
     right: 0;
     text-align: center;
     z-index: 10;
-  }
-  
-  .carrusel-dots li {
+}
+
+.carrusel-dots li {
     display: inline-block;
     margin: 0 0.5rem;
-  }
-  
-  .dot {
+}
+
+.dot {
     color: #fff;
     cursor: pointer;
     display: block;
     font-size: 2rem;
     transition: opacity 0.4s linear;
-  }
-  
-  .dot:hover {
+}
+
+.dot:hover {
     opacity: 0.8;
-  }
-  
-  #uno:checked ~ .uno ~ .carrusel-dots li:nth-child(1) .dot,
-  #dos:checked ~ .dos ~ .carrusel-dots li:nth-child(2) .dot,
-  #tres:checked ~ .tres ~ .carrusel-dots li:nth-child(3) .dot,
-  #cuatro:checked ~ .cuatro ~ .carrusel-dots li:nth-child(4) .dot {
+}
+
+#uno:checked~.uno~.carrusel-dots li:nth-child(1) .dot, #dos:checked~.dos~.carrusel-dots li:nth-child(2) .dot, #tres:checked~.tres~.carrusel-dots li:nth-child(3) .dot, #cuatro:checked~.cuatro~.carrusel-dots li:nth-child(4) .dot {
     color: #428bca;
-  }
-@media screen and (min-width: 600px){
-  .bloque-img-sm{display:none}
+}
+
+@media screen and (min-width: 600px) {
+    .bloque-img-sm {
+        display: none
+    }
 }
 
 /*** Movil ***/
 @media screen and (max-width: 600px) {
     .nosotros, .branding, .equipo, .testimonios {
-        /* background-color: #e1d5db; */ grid-auto-flow: unset;
+        /* background-color: #e1d5db; */
+        grid-auto-flow: unset;
         grid-template-columns: unset;
         gap: 40px;
     }
@@ -368,27 +363,18 @@ h3 {
         padding-left: 0;
     }
 
-      .slider {
-      display: none;
-  }
-  .header img {
-    width: 150%;
-    padding-left: 25px;
+    .slider {
+        display: none;
+    }
 
-  
+    .header img {
+        width: 150%;
+        padding-left: 25px;
+    }
 
     .testimonios {
         padding: 30px 0 30px 30px;
     }
 
-    .footer {
-        display: revert;
-        padding: 40px;
-        margin-left: 0;
-        font-size: 16px;
-    }
 
-    .footer .contacto {
-        padding-top: 0;
-    }
 }
