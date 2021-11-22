@@ -186,8 +186,29 @@ h3 {
     margin-inline: 40px 10px;
 }
 
+
 .testimonios .cta {
-    margin: auto;
+      margin: auto;
+  filter: drop-shadow(0 10px 8px #b71c1c) drop-shadow(0 4px 3px rgba(0, 0, 0, 0.6));
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  transition: all 400ms ease-out;
+}
+
+	
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+.testimonios .cta:hover {
+ filter: none;
+ animation: none;
+   
 }
 
 .testimonios div {
