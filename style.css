@@ -245,15 +245,18 @@ h3 {
     margin: auto;
     padding-block: 70px;
     gap: 20px;
+    font-size: 20px;
 }
 
 .footer .contacto span {
     padding-inline-end: 1rem;
+    font-size: 20px;
     ;
 }
 
 .footer .contacto p {
     line-height: 1.2;
+    font-size: 20px;
 }
 
 /* Slider */
@@ -395,6 +398,25 @@ h3 {
 
     .testimonios {
         padding: 30px 0 30px 30px;
+    }
+    .footer {
+        display: grid;
+        max-width: 90vw;
+        margin: auto;
+        padding-block: 70px;
+        gap: 20px;
+        font-size: 18px;
+    }
+    
+    .footer .contacto span {
+        padding-inline-end: 1rem;
+        font-size: 18px;
+        ;
+    }
+    
+    .footer .contacto p {
+        line-height: 1.2;
+        font-size: 18px;
     }
 
 
