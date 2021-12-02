@@ -225,7 +225,9 @@ h3 {
     padding-bottom: 20px;
 }
 
-.testimonios cite {}
+.testimonios cite {
+    color:blueviolet;
+}
 
 /*** Social ***/
 .social {
